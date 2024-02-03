@@ -5321,7 +5321,7 @@ body .ui-tooltip {
 /*----------------------------------------*/
 .cta__fake-div {
   width: 100%;
-  height: 183px;
+  height: 258px;
   margin-bottom: -183px;
   position: relative;
 }
@@ -5783,7 +5783,7 @@ body .ui-tooltip {
 @media (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
   .home__menu-grid {
     padding: 10px 0 20px;
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: repeat(1,1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -9037,7 +9037,7 @@ body .ui-tooltip {
 }
 @media (max-width: 575px) {
   .service-information__item-wrapper {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: repeat(1,1fr);
     grid-template-columns: repeat(1, 1fr);
   }
 }
